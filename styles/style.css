@@ -7,4 +7,117 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin: 5% auto;
+}
+
+.left-content {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+
+.right-content {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.phone-data {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.data-header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 0 15px;
+}
+
+div.data-header > button > img {
+  margin:auto 5px;
+}
+
+.login-button {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  background-color: #688dad;
+  margin: auto 0;
+  border-color: #305c84;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.data-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  justify-content: flex-start;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: flex-start;
+}
+
+.data-content h1 {
+  color: #06365f;
+}
+
+.store-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+}
+
+.store-buttons > img {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.footer-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.copy {
+  color: #c9cacb;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 1090px) {
 }
