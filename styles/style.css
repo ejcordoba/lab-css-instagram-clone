@@ -14,7 +14,7 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  width: 80vw;
+  width: 55vw;
   margin: 5% auto;
 }
 
@@ -72,7 +72,7 @@ div.data-header > button > img {
   justify-content: flex-start;
   background-image: url(/images/frame.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   align-content: flex-start;
 }
 
@@ -85,6 +85,7 @@ div.data-header > button > img {
   flex-direction: row;
   justify-content: start;
   width: 100%;
+  margin: 15px 0;
 }
 
 .store-buttons > img {
